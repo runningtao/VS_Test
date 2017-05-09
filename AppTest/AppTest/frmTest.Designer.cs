@@ -30,6 +30,7 @@
         {
             this.btnTest = new System.Windows.Forms.Button();
             this.labShow = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnTest
@@ -52,11 +53,21 @@
             this.labShow.TabIndex = 1;
             this.labShow.Text = "My name is HT";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(83, 85);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 12);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "branch test";
+            // 
             // frmTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labShow);
             this.Controls.Add(this.btnTest);
             this.Name = "frmTest";
@@ -70,6 +81,7 @@
 
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Label labShow;
+        private System.Windows.Forms.Label label1;
     }
 }
 
